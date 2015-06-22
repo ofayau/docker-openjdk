@@ -1,4 +1,3 @@
-#FROM busybox-lib32
 FROM ofayau/busybox-libc32
 
 MAINTAINER Olivier Fayau
