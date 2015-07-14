@@ -1,13 +1,9 @@
-FROM ofayau/busybox-libc32
+FROM ofayau/busybox-jvm
 
 MAINTAINER Olivier Fayau
 
-# Set environment
-ENV JAVA_HOME /usr/lib/jvm/jre
-ENV PATH $PATH:$JAVA_HOME/bin
-
 #
-# Download and install java : Openjdk - java-se-8u40-ri-compact3.
+# Download and install java : OpenJDK - java-se-8u40-ri-compact3.
 # About Compact Profiles (JEP 161) : http://openjdk.java.net/jeps/161
 # Official depo : https://jdk8.java.net/java-se-8-ri/
 #
