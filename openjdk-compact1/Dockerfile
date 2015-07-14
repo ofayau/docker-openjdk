@@ -7,7 +7,7 @@ ENV JAVA_HOME /usr/lib/jvm/jre
 ENV PATH $PATH:$JAVA_HOME/bin
 
 #
-# Download and install java : Openjdk - 8u40 - compact1.
+# Download and install java : Openjdk - java-se-8u40-ri-compact1.
 # About Compact Profiles (JEP 161) : http://openjdk.java.net/jeps/161
 # Official depo : https://jdk8.java.net/java-se-8-ri/
 #
