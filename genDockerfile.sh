@@ -9,6 +9,8 @@ url_s=-linux-i586-10_feb_2015.tar.gz
 for profile in compact1 compact2 compact3 jre; do
 	echo "Generate Dockerfile for $profile"
 	mkdir -p "openjdk-$profile"
+	# Link current README.md
+	ln -sf ../README.md openjdk-$profile/
 	# profile2 with "-"
 	[ $profile = "jre" ] && p2="" || p2="-$profile"
 	echo "=> url : ${url_p}${p2}${url_s}" 
