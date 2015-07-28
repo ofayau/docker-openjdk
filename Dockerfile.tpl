@@ -12,3 +12,5 @@ RUN mkdir /usr/lib/jvm \
   && wget %URL% -O - | gunzip | tar x \
   && ln -s /usr/lib/jvm/%JRE% /usr/lib/jvm/jre
 
+CMD ["java", "-version"]
+
